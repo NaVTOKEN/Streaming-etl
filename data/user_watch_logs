@@ -1,0 +1,16 @@
+user_id,show_id,show_name,genre,watch_time,timestamp
+U001,S101,Money Heist,Drama,30,2025-01-01 10:00:00
+U001,S101,Money Heist,Drama,25,2025-01-01 10:40:00
+U002,S102,Dark,Sci-Fi,40,2025-01-01 11:00:00
+U002,S102,Dark,Sci-Fi,35,2025-01-01 11:50:00
+U003,S103,Friends,Comedy,20,2025-01-01 12:00:00
+U003,S103,Friends,Comedy,25,2025-01-01 12:20:00
+U004,S104,Stranger Things,Sci-Fi,50,2025-01-01 13:00:00
+U005,S105,The Office,Comedy,30,2025-01-01 14:00:00
+U001,S101,Money Heist,Drama,45,2025-01-02 09:00:00
+U002,S102,Dark,Sci-Fi,20,2025-01-02 10:00:00
+U003,S103,Friends,Comedy,15,2025-01-02 11:00:00
+U004,S104,Stranger Things,Sci-Fi,60,2025-01-02 12:00:00
+U005,S105,The Office,Comedy,25,2025-01-02 13:00:00
+U006,S106,Breaking Bad,Drama,55,2025-01-02 14:00:00
+U007,S107,Loki,Action,40,2025-01-02 15:00:00
