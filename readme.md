@@ -62,5 +62,4 @@ python etl/main.py
 
 ---
 
-## Resume Impact
 Built a scalable ETL pipeline for log-based analytics, implementing sessionization and dimensional modeling for user engagement insights.
