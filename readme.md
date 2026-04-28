@@ -1,12 +1,12 @@
-# Streaming Platform Data Pipeline 🎬
+ Streaming Platform Data Pipeline 
 
-## Overview
+Overview
 Production-grade ETL pipeline simulating a streaming platform (Netflix/Hotstar).  
 Processes user watch logs to generate engagement insights.
 
 ---
 
-## Tech Stack
+ Tech Stack
 - Python (Pandas)
 - SQL (SQLite / Warehouse Ready)
 - Apache Airflow
@@ -14,16 +14,16 @@ Processes user watch logs to generate engagement insights.
 
 ---
 
-## Architecture
-```
+Architecture
+
 User Logs → ETL → Sessionization → Data Warehouse → Analytics
-```
+
 
 ---
 
-## Data Model
+ Data Model
 
-### Fact Table
+Fact Table
 - fact_watch
   - user_id
   - show_id
@@ -31,14 +31,14 @@ User Logs → ETL → Sessionization → Data Warehouse → Analytics
   - session_id
   - total_watch_time
 
-### Dimensions
+ Dimensions
 - dim_user
 - dim_show
 - dim_date
 
 ---
 
-## Key Features
+Key Features
 - Log data processing  
 - Sessionization logic  
 - Star schema modeling  
@@ -47,19 +47,19 @@ User Logs → ETL → Sessionization → Data Warehouse → Analytics
 
 ---
 
-## How to Run
-```bash
+How to Run
+
 pip install -r requirements.txt
+
 python etl/main.py
-```
+
 
 ---
 
-## Sample Insights
+Sample Insights
 - Most watched shows  
 - User engagement patterns  
 - Peak viewing hours  
 
 ---
 
-Built a scalable ETL pipeline for log-based analytics, implementing sessionization and dimensional modeling for user engagement insights.
